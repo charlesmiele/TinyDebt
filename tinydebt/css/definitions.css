@@ -1,0 +1,10 @@
+body {
+  max-width: 70ch;
+}
+
+p {
+  font-size: 25px;
+  transition: 1s;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}

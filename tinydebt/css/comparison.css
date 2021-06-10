@@ -1,0 +1,95 @@
+p {
+  font-size: 25px;
+  transition: 0.5s;
+}
+
+.ya {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  height: 45px;
+  border: none;
+  transition: 0.5s;
+  font-family: "IBM Plex Mono", momnospace;
+  font-size: 25px;
+}
+
+input:focus {
+  background: whitesmoke;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.schoolio {
+  display: flex;
+}
+
+.labelContain {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  margin-right: 35px;
+}
+
+.schoolContain {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+@media (max-width: 1000px) {
+  p {
+    font-size: 16px;
+  }
+  input {
+    font-size: 16px;
+    height: 28px;
+  }
+  .labelContain {
+    margin-top: 28px;
+  }
+}
+
+@media (max-width: 710px) {
+  p {
+    font-size: 11px;
+  }
+  input {
+    font-size: 11px;
+    height: 20px;
+  }
+  .labelContain {
+    margin-top: 22px;
+  }
+  .labelItem {
+    margin-bottom: 65px;
+  }
+  .schoolItem {
+    margin-bottom: 65px;
+  }
+}
+
+@media (max-width: 540px) {
+  p {
+    font-size: 8px;
+  }
+  input {
+    font-size: 8px;
+    height: 14.4px;
+  }
+  .labelContain {
+    margin-top: 22px;
+    margin-right: 10px;
+  }
+  .schoolContain {
+    margin-right: 10px;
+  }
+  .labelItem {
+    margin-bottom: 65px;
+  }
+  .schoolItem {
+    margin-bottom: 65px;
+  }
+}

@@ -1,0 +1,64 @@
+/* font-family: "IBM Plex Mono", monospace;
+font-family: "Playfair Display", serif; */
+
+.backBtn {
+  margin: 10px;
+}
+p {
+  font-size: 24px;
+}
+.everything {
+  margin: 5% 10px 10px 5%;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: normal;
+  font-family: "Playfair Display", serif;
+  margin-bottom: -10px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  font-family: "Playfair Display", serif;
+  margin-bottom: -10px;
+}
+
+.container {
+  background-color: #f0f0f0;
+  max-width: 1150px;
+  border-radius: 10px;
+  margin-left: 5%;
+  border: 1px solid #f0f0f0;
+}
+
+.service {
+  margin: 20px;
+  margin-top: 5px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0%;
+  border-bottom: 1px solid black;
+}
+
+.name {
+  font-family: "Playfair Display", serif;
+  /* border: 1px solid black; */
+  margin-bottom: -10px;
+}
+
+.price {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+ol {
+  margin: 10px 20px 10px 20px;
+}
+li {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 24px;
+}

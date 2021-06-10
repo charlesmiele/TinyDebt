@@ -1,0 +1,114 @@
+body {
+  background: white;
+}
+
+.backBtn {
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.homeContain {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: -30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 45px;
+  }
+  .homeContain {
+    margin-bottom: 0px;
+  }
+}
+
+.define {
+  display: none;
+  font-size: 10px;
+  max-width: 30%;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.defineItem {
+  padding: 10px;
+}
+.home {
+  color: #0275d8;
+}
+.container {
+  margin: 0px 20px 20px 20px;
+}
+.key {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  color: black;
+  margin: 20px;
+}
+
+.ratioBtn {
+  background: none;
+  border: none;
+}
+.tinyRatioKey {
+  margin-right: 10px;
+  color: black;
+  font-size: 15px;
+}
+
+#searchBar {
+  flex-grow: 1;
+  height: 45px;
+  font-family: "IBM Plex Mono", momnospace;
+  font-size: 16px;
+  background: white;
+  border-bottom: white 1px solid;
+  border: none;
+  transition: 0.5s;
+}
+
+#searchBar::placeholder {
+  font-family: "IBM Plex Mono", momnospace;
+  color: black;
+  font-size: 16px;
+}
+
+#searchBar:focus {
+  outline: black;
+  background: whitesmoke;
+  border: none;
+  border-bottom: black 1px solid;
+  border-radius: 0px;
+}
+
+.schoolContain {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.schoolContain:hover {
+  background: whitesmoke;
+  color: #121212;
+  border: 1px solid whitesmoke;
+}
+
+.schoolName {
+  margin-left: 10px;
+}
+
+.tinyRatio {
+  margin-right: 10px;
+}

@@ -1,0 +1,150 @@
+.backBtn {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.everything {
+  display: flex;
+  overflow-x: scroll;
+  justify-content: flex-start;
+}
+
+.school {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.schoolAddBtn {
+  background: white;
+  border: none;
+}
+/* Top Part */
+.preSolv {
+  margin: 10px;
+  max-width: 600px;
+}
+
+.formie {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  justify-content: space-between;
+  align-items: left;
+  margin: 10px;
+}
+
+.formlabel {
+  margin-left: 0px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.debtdisplay {
+  margin-left: 10px;
+}
+/* GRAPHS */
+
+.flexbox-container {
+  display: flex;
+  max-width: 500px;
+  justify-content: space-between;
+  margin: 10px 10px 10px 0px;
+}
+.flexbox-item {
+  height: 250px;
+  flex-shrink: 0;
+  flex-grow: 1;
+  display: flex;
+  background-color: whitesmoke;
+  border: 3px solid black;
+  margin: 10px;
+}
+.flexbox-item-1 {
+  flex-grow: 1;
+  flex-shrink: 0;
+  background-color: black;
+  max-height: 100%;
+  height: 0px;
+}
+
+.debtGraphDisplay {
+  color: whitesmoke;
+}
+
+/* SOLVE INTRO */
+.solveContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  max-width: 800px;
+}
+h2 {
+  margin-left: 10px;
+}
+
+.solveIntro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: whitesmoke;
+  margin: 10px;
+}
+
+.solveIntroLabel {
+  background: whitesmoke;
+  border: none;
+  margin: 10px;
+}
+
+.solvePlusLogo {
+  background: whitesmoke;
+  border: none;
+  transition: 0.5s;
+}
+
+/* RANGES */
+
+.solvDelBtn {
+  background: white;
+  border: none;
+  transition: 0.5s;
+}
+.rangeContain {
+  margin: 10px;
+  border-bottom: 3px solid black;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.rangeLabel {
+  margin: 10px;
+  max-width: 150px;
+  min-width: 20px;
+  flex-grow: 1;
+}
+
+.rangeLabel::placeholder {
+  font-size: 13px;
+}
+
+.rangeAssist::placeholder {
+  font-size: 13px;
+}
+
+.rangeAssist {
+  max-width: 110px;
+  min-width: 20px;
+  margin: 10px;
+}
+
+.range {
+  max-width: 50%;
+  min-width: 20%;
+  margin-right: 10px;
+}

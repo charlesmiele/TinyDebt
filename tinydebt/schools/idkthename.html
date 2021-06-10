@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Ayoo</title>
+    <link href="comparison.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap" rel="stylesheet">
+
+  </head>
+    <body style="font-family: 'IBM Plex Mono', momnospace;">
+      <a href="index.html">
+        <img src="arrow_back_black_36dp.svg">
+      </a>
+        <form spellcheck="false">
+          <div class="ya">
+          <div class="schoolio">
+            <div class="labelContain">
+              <p class="labelItem"><em>Full cost</em></p>
+              <p class="labelItem"><em>Applied for need</em></p>
+              <p class="labelItem"><em>Judged to have need</em></p>
+              <p class="labelItem"><em>Were offered aid</em></p>
+              <p class="labelItem"><em>Had full need met</em></p>
+              <p class="labelItem"><em>Ratio</em></p>
+            </div>
+            <div class="schoolContain">
+              <label>
+                  <input class="school1" name="submitted-school" placeholder="School 1" list="brow">
+                  <datalist id="brow"></datalist>
+              </label>
+              <p class="schoolItem" id="stat0"></p>
+              <p class="schoolItem" id="stat1"></p>
+              <p class="schoolItem" id="stat2"></p>
+              <p class="schoolItem" id="stat3"></p>
+              <p class="schoolItem" id="stat4"></p>
+              <p class="schoolItem" id="stat5"></p>
+            </div>
+            <div class="schoolContain">
+              <label class="formlabel">
+                  <input class="school2" name="submitted-school" placeholder="School 2" list="brow">
+                  <datalist id="brow">
+                  </datalist>
+              </label>
+              <p class="schoolItem" id="wenstat0"></p>
+              <p class="schoolItem" id="wenstat1"></p>
+              <p class="schoolItem" id="wenstat2"></p>
+              <p class="schoolItem" id="wenstat3"></p>
+              <p class="schoolItem" id="wenstat4"></p>
+              <p class="schoolItem" id="wenstat5"></p>
+            </div>
+          </div>
+        </div>
+        </form>
+    <script src="comparison.js"></script>
+  </body>
+</html>

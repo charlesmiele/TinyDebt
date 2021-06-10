@@ -1,0 +1,14 @@
+input {
+  border: 2px solid black;
+  font-size: 18px;
+  padding: 5px;
+  height: 35px;
+  width: 350px;
+}
+
+input:focus {
+  outline: 2px solid black;
+  box-shadow: 5px 5px 5px black;
+}
+/* input::-webkit-calendar-picker-indicator {
+  /*   display: none; */

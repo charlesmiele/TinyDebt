@@ -1,0 +1,132 @@
+<!doctype html>
+    <html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinyDebt</title>
+
+    <link rel="icon" href="images/favicon.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/comparecosts.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body style="font-family: 'IBM Plex Mono', momnospace;">
+    <div class="backBtn">
+        <a href="../signup.html#comparecosts">
+            <img src="images/arrow_back_black_36dp.svg">
+        </a>
+    </div>
+<div class="everything">
+
+    <div class=school>
+        <div class="schoolItem">
+            <div class="preSolv" style="font-family: 'IBM Plex Mono', momnospace;">
+            <!-- <h1 class="display-1">Calculate Your Debt</h1> -->
+
+                <form class=formie spellcheck="false">
+                    <label class="formlabel">Name of School
+                        <input class="schoolInput formLabelItem" name="submitted-school" placeholder="School 1" list="brow">
+                        <datalist id="brow">
+                        </datalist>
+                    </label>
+                    <label class="formlabel">Cost(Per Yr) $
+                        <input type="number" class="fullcost formLabelItem" placeholder="75,000">
+                    </label>
+                </form>
+                <div class="debtdisplay">
+                    <p class="display-6">Total Student Debt</p>
+                    <p class="display-5">$0</p>
+                </div>
+                <br>
+                <div class="flexbox-container">
+                    <div class="flexbox-item">
+                        <div class="flexbox-item-1">
+                            <p class="debtGraphDisplay"></p>
+                        </div>
+                    </div>
+                    <div class="flexbox-item">
+                        <div class="flexbox-item-1">
+                            <p class="debtGraphDisplay"></p>
+                        </div>
+                    </div>
+                    <div class="flexbox-item">
+                        <div class="flexbox-item-1">
+                            <p class="debtGraphDisplay"></p>
+                        </div>
+                    </div>
+                    <div class="flexbox-item">
+                        <div class="flexbox-item-1">
+                            <p class="debtGraphDisplay"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="solveContainer" style="font-family: 'IBM Plex Mono', momnospace;">
+                <div class="solveIntro">
+                    <p class="solveIntroLabel">Add sources that reduce your debt(calculated annually)</p>
+                    <button class="solvePlusLogo"><a href="#bottom"><img src="images/add_box-24px.svg" class="solvPlusImg"></a></button>
+                </div>
+                <div id="bottom"></div>
+            </div>
+        </div>
+        <div class="schoolItem">
+            <form class=formie spellcheck="false">
+                <label class="formlabel">Name of School
+                    <input class="schoolInput formLabelItem" name="submitted-school" placeholder="School 2" list="brow1">
+                    <datalist id="brow1">
+                    </datalist>
+                </label>
+                <label class="formlabel">Cost(Per Yr) $
+                    <input type="number" class="fullcost formLabelItem" placeholder="75,000">
+                </label>
+            </form>
+            <div class="debtdisplay">
+                <p class="display-6">Total Student Debt</p>
+                <p class="display-5">$0</p>
+            </div>
+            <br>
+            <div class="flexbox-container">
+                <div class="flexbox-item">
+                    <div class="flexbox-item-1">
+                        <p class="debtGraphDisplay"></p>
+                    </div>
+                </div>
+                <div class="flexbox-item">
+                    <div class="flexbox-item-1">
+                        <p class="debtGraphDisplay"></p>
+                    </div>
+                </div>
+                <div class="flexbox-item">
+                    <div class="flexbox-item-1">
+                        <p class="debtGraphDisplay"></p>
+                    </div>
+                </div>
+                <div class="flexbox-item">
+                    <div class="flexbox-item-1">
+                        <p class="debtGraphDisplay"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="solveContainer" style="font-family: 'IBM Plex Mono', momnospace;">
+                <div class="solveIntro">
+                    <p class="solveIntroLabel">Add sources that reduce your debt(calculated annually)</p>
+                        <button class="solvePlusLogo">
+                            <a href="#bottom">
+                                <img src="images/add_box-24px.svg" class="solvPlusImg">
+                            </a>
+                        </button>
+                </div>
+                <div id="bottom"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/comparecosts.js"></script>
+</body>
