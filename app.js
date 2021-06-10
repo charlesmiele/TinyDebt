@@ -5,7 +5,7 @@ const https = require("https")
 const app = express()
 
 
-app.use(express.static("public"))
+app.use(express.static(__dirname + "/public"))
 app.use(express.urlencoded({extended: true}))
 
 
@@ -42,6 +42,7 @@ async function run() {
         res.sendFile(__dirname + "/success.html")
         console.log("Successfully added contact as an audience member. The contact's id is ${response.id}.");
 }
+
 run().catch(e => res.sendFile(__dirname + "/failure.html"));
 })
 
