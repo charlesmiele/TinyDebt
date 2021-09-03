@@ -221,15 +221,18 @@ button:hover {
   margin: 20px;
   height: 389px;
   width: 90%;
-  background-color: #0000ff;
   color: white;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
+  background-image: url("https://media.giphy.com/media/LoXYDM8bQXQ78UJCwG/giphy.gif");
+  background-color: #0000ff;
+  background-blend-mode: screen;
 }
 
 .toolinfo p {
   margin: 25px;
+  background-color: blue;
 }
 
 .sub {
@@ -257,13 +260,16 @@ button:hover {
 }
 
 
-.gif img {
+/* .gif {
+  background-image: url("https://media.giphy.com/media/LoXYDM8bQXQ78UJCwG/giphy.gif");
+  background-color: #0000ff;
+  background-blend-mode: screen;
   border-bottom-right-radius: 15px;
   padding: 10px;
   float: right;
-  width: 350px;
-  height: auto;
-}
+  /* width: 350px;
+  height: auto; */
+
 
 @media(max-width: 800px) {
 
