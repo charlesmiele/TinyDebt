@@ -15,7 +15,7 @@ button {
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 55px;
 }
 
 
@@ -33,7 +33,6 @@ h1 {
   flex-direction: column;
   margin-right: -1px;
   padding: 0;
-  height: 100%;
   margin-left: 25px;
 }
 
@@ -41,12 +40,15 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  height: 640px;
 }
 
 .text {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin-right: 83px;
-  height: 651px;
+  height: 640px;
 }
 
 .text h1 {
@@ -70,11 +72,10 @@ h1 {
 
 
 .images {
-  /* border: 1px solid black; */
   overflow: hidden;
-  margin: 0;
+  margin: auto 0 0 auto;
   float: right;
-  height: 641px;
+  height: 640px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -225,7 +226,6 @@ button:hover {
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  background-image: url("https://media.giphy.com/media/LoXYDM8bQXQ78UJCwG/giphy.gif");
   background-color: #0000ff;
   background-blend-mode: screen;
 }
